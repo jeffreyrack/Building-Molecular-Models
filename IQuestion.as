@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;		public interface IQuestion {		function isLegalDrop(dropObj:MovieClip):Boolean;		function getHitSlot():Slot;		function clearAnswer():void;	}	}
