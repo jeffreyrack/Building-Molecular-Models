@@ -32,6 +32,12 @@
 					// Rackauckas When the electrons are set to visible, I'm not sure what the
 					// boolean values mean as in the slot.as function they're labeled as:
 					// N1:Boolean,N2:Boolean,E1:Boolean,E2:Boolean,S1:Boolean,S2:Boolean,W1:Boolean,W2:Boolean
+					
+					//Ouyang: Check out the Slot component in the library and you'll see that each Slot object
+							//has eight dots representing electrons. I think N1 means North 1, probably the left
+							//dot on the top, E1 means East 1, and so on. I remember there were some chemicals
+							//whose dot diagram was not correct. Could you please check each one to correct possible
+							//errors?
 					slot_O1.setElectronVisible(true,true,true,true,false,true,false,true);
 					slot_O1.setElectronColor(0xFF0000);
 					slot_O1.setContent(dropObj);
