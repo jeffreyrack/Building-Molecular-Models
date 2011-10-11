@@ -41,9 +41,9 @@
 							//whose dot diagram was not correct. Could you please check each one to correct possible
 							//errors?
 					slot_O1.setElectronVisible(true,true,true,true,false,true,false,true);
-					slot_O1.setElectronColor(0xFF0000);
+					slot_O1.setElectronColor(Color.RED);
 					slot_O1.setContent(dropObj);
-					fmt.color = 0xFF0000; // red
+					fmt.color = Color.RED;; // red
  					dropObj.symbol.setTextFormat(fmt);
 					isFinish();
 					return true;
@@ -58,9 +58,9 @@
 				{
 					hitSlot = slot_H1;
 					slot_H1.setElectronVisible(false,false,true,false,false,false,false,false);
-					slot_H1.setElectronColor(0x223077);
+					slot_H1.setElectronColor(Color.BLUE);
 					slot_H1.setContent(dropObj);
-					fmt.color = 0x223077;
+					fmt.color = Color.BLUE;
  					dropObj.symbol.setTextFormat(fmt);
 					isFinish();
 					return true;
@@ -74,9 +74,9 @@
 				{
 					hitSlot = slot_H2;
 					slot_H2.setElectronVisible(true,false,false,false,false,false,false,false);
-					slot_H2.setElectronColor(0x223077);
+					slot_H2.setElectronColor(Color.BLUE);
 					slot_H2.setContent(dropObj);
-					fmt.color = 0x223077;
+					fmt.color = Color.BLUE;
  					dropObj.symbol.setTextFormat(fmt);
 					isFinish();
 					return true;

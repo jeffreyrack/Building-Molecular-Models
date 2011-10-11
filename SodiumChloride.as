@@ -30,9 +30,9 @@
 				{
 					hitSlot = slot_Na;
 					slot_Na.setElectronVisible(false,false,true,false,false,false,false,false);
-					slot_Na.setElectronColor(0xFF0000);
+					slot_Na.setElectronColor(Color.RED);
 					slot_Na.setContent(dropObj);
-					fmt.color = 0xFF0000; // red
+					fmt.color = Color.RED; // red
  					dropObj.symbol.setTextFormat(fmt);
 					isFinish();
 					return true;
@@ -47,9 +47,9 @@
 				{
 					hitSlot = slot_Cl;
 					slot_Cl.setElectronVisible(true,true,true,true,true,true,false,true);
-					slot_Cl.setElectronColor(0x223077);
+					slot_Cl.setElectronColor(Color.BLUE);
 					slot_Cl.setContent(dropObj);
-					fmt.color = 0x223077;
+					fmt.color = Color.BLUE;
  					dropObj.symbol.setTextFormat(fmt);
 					isFinish();
 					return true;

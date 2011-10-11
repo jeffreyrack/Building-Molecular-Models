@@ -26,7 +26,7 @@
 				{
 					hitSlot = slot_C1;
 					slot_C1.setElectronVisible(true,false,true,false,false,true,false,true);
-					slot_C1.setElectronColor(0xFF0000);
+					slot_C1.setElectronColor(Color.RED);
 					slot_C1.setContent(dropObj);
 					isFinish();
 					return true;
@@ -40,7 +40,7 @@
 				{
 					hitSlot = slot_C2;
 					slot_C2.setElectronVisible(true,false,true,false,false,true,false,true);
-					slot_C2.setElectronColor(0xFF0000);
+					slot_C2.setElectronColor(Color.RED);
 					slot_C2.setContent(dropObj);
 					isFinish();
 					return true;
@@ -54,7 +54,7 @@
 				{
 					hitSlot = slot_H1;
 					slot_H1.setElectronVisible(false,false,false,false,false,true,false,false);
-					slot_H1.setElectronColor(0x223077);
+					slot_H1.setElectronColor(Color.BLUE);
 					slot_H1.setContent(dropObj);
 					isFinish();
 					return true;
@@ -68,7 +68,7 @@
 				{
 					hitSlot = slot_H2;
 					slot_H2.setElectronVisible(false,false,false,false,false,true,false,false);
-					slot_H2.setElectronColor(0x223077);
+					slot_H2.setElectronColor(Color.BLUE);
 					slot_H2.setContent(dropObj);
 					isFinish();
 					return true;
@@ -82,7 +82,7 @@
 				{
 					hitSlot = slot_H3;
 					slot_H3.setElectronVisible(false,false,true,false,false,false,false,false);
-					slot_H3.setElectronColor(0x223077);
+					slot_H3.setElectronColor(Color.BLUE);
 					slot_H3.setContent(dropObj);
 					isFinish();
 					return true;
@@ -96,7 +96,7 @@
 				{
 					hitSlot = slot_H4;
 					slot_H4.setElectronVisible(false,false,false,false,false,false,false,true);
-					slot_H4.setElectronColor(0x223077);
+					slot_H4.setElectronColor(Color.BLUE);
 					slot_H4.setContent(dropObj);
 					isFinish();
 					return true;
@@ -110,7 +110,7 @@
 				{
 					hitSlot = slot_H5;
 					slot_H5.setElectronVisible(true,false,false,false,false,false,false,false);
-					slot_H5.setElectronColor(0x223077);
+					slot_H5.setElectronColor(Color.BLUE);
 					slot_H5.setContent(dropObj);
 					isFinish();
 					return true;
@@ -124,7 +124,7 @@
 				{
 					hitSlot = slot_H6;
 					slot_H6.setElectronVisible(true,false,false,false,false,false,false,false);
-					slot_H6.setElectronColor(0x223077);
+					slot_H6.setElectronColor(Color.BLUE);
 					slot_H6.setContent(dropObj);
 					isFinish();
 					return true;
