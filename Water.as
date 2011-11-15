@@ -7,11 +7,15 @@
 
 	
 	public class Water extends MovieClip implements IQuestion {
-		
+		 var slot_H1:Slot;
+		 var slot_H2:Slot;
+		 var slot_O1:Slot;
 		
 		public function Water(x:int, y:int) {
 			this.x=x;
 			this.y=y;
+			initializeSlots();
+			
 		}
 		private var hitSlot:Slot;
 		
@@ -31,15 +35,6 @@
 				else if((dropObj.symbol.text == "O"))
 				{
 					hitSlot = slot_O1;
-					// Rackauckas When the electrons are set to visible, I'm not sure what the
-					// boolean values mean as in the slot.as function they're labeled as:
-					// N1:Boolean,N2:Boolean,E1:Boolean,E2:Boolean,S1:Boolean,S2:Boolean,W1:Boolean,W2:Boolean
-					
-					//Ouyang: Check out the Slot component in the library and you'll see that each Slot object
-							//has eight dots representing electrons. I think N1 means North 1, probably the left
-							//dot on the top, E1 means East 1, and so on. I remember there were some chemicals
-							//whose dot diagram was not correct. Could you please check each one to correct possible
-							//errors?
 					slot_O1.setElectronVisible(true,true,true,true,false,true,false,true);
 					slot_O1.setElectronColor(Color.RED);
 					slot_O1.setContent(dropObj);
@@ -91,6 +86,23 @@
 			return hitSlot;
 		}
 		
+		public function initializeSlots(){
+			slot_H1=new Slot();
+			slot_H1.visible=true;
+			slot_H1.x=238.95;
+			slot_H1.y=87;
+			addChild(slot_H1);
+			slot_H2=new Slot();
+			slot_H2.visible=true;
+			slot_H2.x=287.45;
+			slot_H2.y=136;
+			addChild(slot_H2);
+			slot_O1=new Slot();
+			slot_O1.visible=true;
+			slot_O1.x=287.45;
+			slot_O1.y=87;
+			addChild(slot_O1);
+		}
 		// Rackauckas If the slot isn't null, the slot gets the child removed.
 		public function clearAnswer():void
 		{
