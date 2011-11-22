@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Molecule name="Water">
+	<Slot>
+		<x> 238.95 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 0 </a>
+			<b> 0 </b>
+			<c> 1 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 1 </b>
+			<c> 1 </c>
+			<d> 1 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 1 </h>
+		</Array>
+	</Slot>
+</Molecule>
