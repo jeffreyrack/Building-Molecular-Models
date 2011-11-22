@@ -10,8 +10,16 @@
 		var elementContained:String=null;
 		var visibleElectrons:Array=null;
 		
-		public function Slot() {
+		public function Slot(x:int=0, y:int=0, elementName:String="NULL", Color:int=0, Electrons:Array=null, isDefaultConstructor:Boolean=true){
 			clearElectronDisplay();
+			if(isDefaultConstructor) return;
+			this.x=x;
+			this.y=y;
+			this.elementContained=elementName;
+			this.setElectronColor(Color);
+			this.visibleElectrons=Electrons;
+			
+			this.visible=true;
 		}
 		
 		private function clearElectronDisplay():void
