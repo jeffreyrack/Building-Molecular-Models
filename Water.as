@@ -1,7 +1,7 @@
 ﻿package 
 {
 
-	import flash.display.MovieClip;
+	import flash.display.*;
 	import flash.events.Event;
 	import flash.text.TextFormat;
 	import flash.net.URLLoader;
@@ -33,11 +33,12 @@
 		public function ProcessXMLData(e:Event){
 			xmlData.ignoreWhite=true;
 			xmlData=new XML(e.target.data);
-			for(var i:int=0; i<xmlData.Slot.length(); i++){
-				var temp:Slot=new Slot(xmlData.Slot[i].x, xmlData.Slot[i].y, xmlData.Slot[i].Name,translateColor(xmlData.Slot[i].Color), 
-									   new Array(parseToBool(xmlData.Slot[i].Array.a), parseToBool(xmlData.Slot[i].Array.b), parseToBool(xmlData.Slot[i].Array.c),
-												 parseToBool(xmlData.Slot[i].Array.d), parseToBool(xmlData.Slot[i].Array.e), parseToBool(xmlData.Slot[i].Array.f),
-												 parseToBool(xmlData.Slot[i].Array.g), parseToBool(xmlData.Slot[i].Array.h)), false);
+			trace(xmlData.Molecule[0].attribute("name"));
+			for(var i:int=0; i<xmlData.Molecule[0].Slot.length(); i++){
+				var temp:Slot=new Slot(xmlData.Molecule[0].Slot[i].x, xmlData.Molecule[0].Slot[i].y, xmlData.Molecule[0].Slot[i].Name,translateColor(xmlData.Molecule[0].Slot[i].Color), 
+									   new Array(parseToBool(xmlData.Molecule[0].Slot[i].Array.a), parseToBool(xmlData.Molecule[0].Slot[i].Array.b), parseToBool(xmlData.Molecule[0].Slot[i].Array.c),
+												 parseToBool(xmlData.Molecule[0].Slot[i].Array.d), parseToBool(xmlData.Molecule[0].Slot[i].Array.e), parseToBool(xmlData.Molecule[0].Slot[i].Array.f),
+												 parseToBool(xmlData.Molecule[0].Slot[i].Array.g), parseToBool(xmlData.Molecule[0].Slot[i].Array.h)), false);
 				addChild(temp);
 				slotList.push(temp);
 			}

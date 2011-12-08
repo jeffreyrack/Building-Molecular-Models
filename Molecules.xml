@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<Container>
 <Molecule name="Water">
 	<Slot>
 		<x> 238.95 </x>
@@ -48,4 +49,170 @@
 			<h> 1 </h>
 		</Array>
 	</Slot>
+	<Image>
+	H2O
+	</Image>
 </Molecule>
+<Molecule name="Glycine">
+	<Slot>
+		<x> 210 </x>
+		<y> -52 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 0 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+	<Slot>
+		<x> 257.95 </x>
+		<y> -52 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 0 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+	<Slot>
+		<x> 353.85 </x>
+		<y> -52 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 0 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 1 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 210 </x>
+		<y> 44 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 257.95 </x>
+		<y> 44 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 305.95 </x>
+		<y> -52 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<Array>
+			<a> 0 </a>
+			<b> 0 </b>
+			<c> 1 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 305.95 </x>
+		<y> 44 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 1</b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 0 </f>
+			<g> 0 </g>
+			<h> 0 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 210 </x>
+		<y> -4 </y>
+		<Name> N </Name>
+		<Color> BROWN </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 1 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 1 </g>
+			<h> 1 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 257.95 </x>
+		<y> -4 </y>
+		<Name> C </Name>
+		<Color> PURPLE </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 1 </c>
+			<d> 0 </d>
+			<e> 0 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 1 </h>
+		</Array>
+	</Slot>
+		<Slot>
+		<x> 305.95 </x>
+		<y> -4 </y>
+		<Name> C </Name>
+		<Color> PURPLE </Color>
+		<Array>
+			<a> 1 </a>
+			<b> 0 </b>
+			<c> 0 </c>
+			<d> 0 </d>
+			<e> 1 </e>
+			<f> 1 </f>
+			<g> 0 </g>
+			<h> 1 </h>
+		</Array>
+	</Slot>
+</Molecule>
+</Container>
