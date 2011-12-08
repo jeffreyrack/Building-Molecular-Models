@@ -49,9 +49,6 @@
 			<h> 1 </h>
 		</Array>
 	</Slot>
-	<Image>
-	H2O
-	</Image>
 </Molecule>
 <Molecule name="Glycine">
 	<Slot>
