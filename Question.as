@@ -37,10 +37,10 @@
 			xmlData.ignoreWhite=true;
 			xmlData=new XML(e.target.data);
 			var slotNumber:uint=0;
-			for(var i:int=0; i<xmlData.length(); i++){
-				trace(xmlData.Molecule[i].attribute("name"));
+			for(var i:int=0; i<xmlData.Molecule.length(); i++){
 				if(xmlData.Molecule[i].attribute("name")==molName){
 					slotNumber=i;
+					trace("slotNumber is = i");
 					break;
 				}
 			}
