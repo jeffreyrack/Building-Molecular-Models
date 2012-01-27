@@ -3,17 +3,28 @@
 
 	import flash.display.*;
 	import flash.events.Event;
+	import flash.text.TextField;
 	import flash.text.TextFormat;
+	import flash.text.StyleSheet;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
+	import flash.text.engine.TextBlock;
 
 	public class Question extends MovieClip implements IQuestion
 	{
+		// Contains all of the slots making it easy to sort through all of the slots.
 		var slotList:Vector.<Slot>;
+		// The slot that an object was dropped on.
 		private var hitSlot:Slot;
+		// Is used for reading the xml Data.
 		var xmlData:XML;
+		// The name of the molecule, passed to the Question in the constructer.
 		var molName:String;
-		var Title:MovieClip;
+		// The chemical symbol for the Molecule, which is read from the xml file.
+		var chemSymbol:String;
+		// The textField which contains the Title of the element (The name, and then the
+		// chemical symbol below it.
+		var Title:TextField = new TextField();
 		
 		public function Question(x:int, y:int, moleculeName:String)
 		{
@@ -55,6 +66,7 @@
 					break;
 				}
 			}
+			chemSymbol=xmlData.Molecule[slotNumber].Title.Symbol;
 			// For loop created to go through the xml Data, and create a new slot for each slot in the <Molecule> chosen in the above for loop.
 			for(var i:int=0; i<xmlData.Molecule[slotNumber].Slot.length(); i++)
 			{
@@ -65,6 +77,9 @@
 				addChild(temp);
 				slotList.push(temp);
 			}
+			CreateTitle();
+			Title.x=xmlData.Molecule[slotNumber].Title.x;
+			Title.y=xmlData.Molecule[slotNumber].Title.y;
 		}
 		
 		
@@ -123,6 +138,23 @@
 					checkSlot.getContent().parent.removeChild(checkSlot.getContent());
 				}
 			}
+		}
+		// Is used to create the element Title underneath the slots.
+		// First line of the title should be the name of the element, second is the chemical symbol.
+		// Creates a css class, and then applies it to the text in order to apply the affects.
+		// I'm not sure if this is the best way of going about it, as it seems to me that it's very sloppy.
+		// Title.font, Title.color etc. did not seem to exist.  Perhaps I capitalized when I shouldn't have?
+		private function CreateTitle(){
+			Title.multiline = true;
+			Title.width=250;
+			Title.selectable=false;
+			Title.height=250;
+			var CSS:String = ".Title{color:#000066; font-family:Arial; font-size:22px; font-weight:bold;}";
+var ss:StyleSheet = new StyleSheet();
+ss.parseCSS(CSS);
+Title.styleSheet = ss;
+Title.htmlText = '<div align="center"><span class="Title">' + molName + " \n"+ chemSymbol;
+addChild(Title);
 		}
 
 		// Is called anytime a slot is filled,

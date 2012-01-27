@@ -22,6 +22,11 @@
 		<Color> RED </Color>
 		<VisibleElectrons> 11110101</VisibleElectrons>
 	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> H2O </Symbol>
+	</Title>
 </Molecule>
 
 <Molecule name="CarbonDioxide">
