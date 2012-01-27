@@ -18,7 +18,6 @@
 			this.elementContained=elementName;
 			this.setElectronColor(Color);
 			this.visibleElectrons=Electrons;
-			
 			this.visible=true;
 		}
 		
@@ -52,17 +51,17 @@
 			electron_W_2_mc.alpha = (W2)? 1 : 0;
 		}
 		public function makeElectronsVisible():void{
-			electron_N_1_mc.alpha = (visibleElectrons[0])? 1 : 0;
-			electron_N_2_mc.alpha = (visibleElectrons[1])? 1 : 0;
+			electron_N_1_mc.alpha = (visibleElectrons[0]);
+			electron_N_2_mc.alpha = (visibleElectrons[1]);
 			
-			electron_E_1_mc.alpha = (visibleElectrons[2])? 1 : 0;
-			electron_E_2_mc.alpha = (visibleElectrons[3])? 1 : 0;
+			electron_E_1_mc.alpha = (visibleElectrons[2]);
+			electron_E_2_mc.alpha = (visibleElectrons[3]);
 			
-			electron_S_1_mc.alpha = (visibleElectrons[4])? 1 : 0;
-			electron_S_2_mc.alpha = (visibleElectrons[5])? 1 : 0;
+			electron_S_1_mc.alpha = (visibleElectrons[4]);
+			electron_S_2_mc.alpha = (visibleElectrons[5]);
 			
-			electron_W_1_mc.alpha = (visibleElectrons[6])? 1 : 0;
-			electron_W_2_mc.alpha = (visibleElectrons[7])? 1 : 0;
+			electron_W_1_mc.alpha = (visibleElectrons[6]);
+			electron_W_2_mc.alpha = (visibleElectrons[7]);
 		}
 		
 		public function setElectronColor(rgbCode:uint):void

@@ -6,48 +6,61 @@
 		<y> 87 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 0 </a>
-			<b> 0 </b>
-			<c> 1 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
 	</Slot>
 	<Slot>
 		<x> 287.45 </x>
 		<y> 136 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons>10000000</VisibleElectrons>
 	</Slot>
 	<Slot>
 		<x> 287.45 </x>
 		<y> 87 </y>
 		<Name> O </Name>
 		<Color> RED </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 1 </b>
-			<c> 1 </c>
-			<d> 1 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 1 </h>
-		</Array>
+		<VisibleElectrons> 11110101</VisibleElectrons>
+	</Slot>
+</Molecule>
+
+<Molecule name="CarbonDioxide">
+	<Slot>
+		<x> 218 </x>
+		<y> 129 </y>
+		<Name> O </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 11001111 </VisibleElectrons>
+	</Slot>
+	<Slot>
+		<x> 314 </x>
+		<y> 129 </y>
+		<Name> O </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 11111100 </VisibleElectrons>
+	</Slot>
+	<Slot>
+		<x> 266 </x>
+		<y> 129 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons> 00110011 </VisibleElectrons>
+	</Slot>
+</Molecule>
+<Molecule name="SodiumChloride">
+	<Slot>
+		<x> 218 </x>
+		<y> 119 </y>
+		<Name> Na </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+	</Slot>
+	<Slot>
+		<x> 266 </x>
+		<y> 119 </y>
+		<Name> Cl </Name>
+		<Color> RED</Color>
+		<VisibleElectrons> 11111101 </VisibleElectrons>
 	</Slot>
 </Molecule>
 <Molecule name="Glycine">
@@ -56,160 +69,70 @@
 		<y> -52 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 0 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 00000100 </VisibleElectrons>
 	</Slot>
 	<Slot>
 		<x> 257.95 </x>
 		<y> -52 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 0 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 00000100 </VisibleElectrons>
 	</Slot>
 	<Slot>
 		<x> 353.85 </x>
 		<y> -52 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 0 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 1 </h>
-		</Array>
+		<VisibleElectrons> 00000001 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 210 </x>
 		<y> 44 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 10000000 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 257.95 </x>
 		<y> 44 </y>
 		<Name> H </Name>
 		<Color> BLUE </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 10000000 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 305.95 </x>
 		<y> -52 </y>
 		<Name> O </Name>
 		<Color> RED </Color>
-		<Array>
-			<a> 0 </a>
-			<b> 0 </b>
-			<c> 1 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 00100100 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 305.95 </x>
 		<y> 44 </y>
 		<Name> O </Name>
 		<Color> RED </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 1</b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 0 </f>
-			<g> 0 </g>
-			<h> 0 </h>
-		</Array>
+		<VisibleElectrons> 11000000 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 210 </x>
 		<y> -4 </y>
 		<Name> N </Name>
 		<Color> BROWN </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 1 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 1 </g>
-			<h> 1 </h>
-		</Array>
+		<VisibleElectrons> 10100111 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 257.95 </x>
 		<y> -4 </y>
 		<Name> C </Name>
 		<Color> PURPLE </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 1 </c>
-			<d> 0 </d>
-			<e> 0 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 1 </h>
-		</Array>
+		<VisibleElectrons> 10100101 </VisibleElectrons>
 	</Slot>
 		<Slot>
 		<x> 305.95 </x>
 		<y> -4 </y>
 		<Name> C </Name>
 		<Color> PURPLE </Color>
-		<Array>
-			<a> 1 </a>
-			<b> 0 </b>
-			<c> 0 </c>
-			<d> 0 </d>
-			<e> 1 </e>
-			<f> 1 </f>
-			<g> 0 </g>
-			<h> 1 </h>
-		</Array>
+		<VisibleElectrons> 10001101 </VisibleElectrons>
 	</Slot>
 </Molecule>
 </Container>
