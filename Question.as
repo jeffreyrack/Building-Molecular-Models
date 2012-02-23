@@ -74,6 +74,9 @@
 								// Seperates each character of VisibleElectrons, giving each character their own slot in an array.
 												 xmlData.Molecule[slotNumber].Slot[i].VisibleElectrons.split('')
 												 , false);
+				temp.scaleX=xmlData.Molecule[slotNumber].Slot[i].Scale;
+				temp.scaleY=xmlData.Molecule[slotNumber].Slot[i].Scale;
+				if(xmlData.Molecule[slotNumber].Slot[i].Position!="None") CalculatePosition(slotList[i-1], temp, xmlData.Molecule[slotNumber].Slot[i].Position);
 				addChild(temp);
 				slotList.push(temp);
 			}
@@ -82,6 +85,25 @@
 			Title.y=xmlData.Molecule[slotNumber].Title.y;
 		}
 		
+		private function CalculatePosition(prev:Slot, temp:Slot, Position:String)
+		{
+			// Multiply the base difference by the scale to calculate the space wanted.
+			var difference:int=50*temp.scaleX;
+			// Conditional Statements to Determine whether to increase left/right, or decrease. Possibly set bools.
+			if(Position=="Right"){
+				temp.x=prev.x+difference;
+				temp.y=prev.y;
+			} else if(Position=="Left"){
+				temp.x=prev.x-difference;
+				temp.y=prev.y;
+			} else if(Position=="Above"){
+				temp.x=prev.x;
+				temp.y=prev.y-difference;
+			} else if(Position=="Below"){
+				temp.x=prev.x;
+				temp.y=prev.y+difference;
+			}
+		}
 		
 		
 		// Determines whether the drop is correct by looking through all the slots, and then checking if

@@ -7,13 +7,8 @@
 		<Name> H </Name>
 		<Color> BLUE </Color>
 		<VisibleElectrons> 00100000 </VisibleElectrons>
-	</Slot>
-	<Slot>
-		<x> 287.45 </x>
-		<y> 136 </y>
-		<Name> H </Name>
-		<Color> BLUE </Color>
-		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
 	</Slot>
 	<Slot>
 		<x> 287.45 </x>
@@ -21,6 +16,17 @@
 		<Name> O </Name>
 		<Color> RED </Color>
 		<VisibleElectrons> 11110101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
 	</Slot>
 	<Title>
 		<x>240.95</x>
