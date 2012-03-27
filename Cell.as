@@ -13,6 +13,7 @@
 //		private var freeElectronsNumber:int = 0;
 		public function Cell() {
 			slotNumber = 256;
+			this.doubleClickEnabled=true;
 		}
 		
 		public function setSlotNumber(num:int):void

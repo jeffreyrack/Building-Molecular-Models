@@ -127,6 +127,8 @@
 						hitSlot = slotCheck;
 						slotCheck.makeElectronsVisible();
 						slotCheck.setContent(dropObj);
+						dropObj.scaleX=slotCheck.scaleX;
+						dropObj.scaleY=slotCheck.scaleY;
 						isFinish();
 						return true;
 					}
