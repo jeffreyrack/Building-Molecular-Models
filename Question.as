@@ -43,6 +43,7 @@
 		{
 			if(Colorname=="BLUE") return Color.BLUE;
 			if(Colorname=="RED") return Color.RED;
+			if(Colorname=="BROWN") return Color.BROWN;
 			return Color.BLUE;
 		}
 		
@@ -88,7 +89,7 @@
 		private function CalculatePosition(prev:Slot, temp:Slot, Position:String)
 		{
 			// Multiply the base difference by the scale to calculate the space wanted.
-			var difference:int=50*temp.scaleX;
+			var difference:int=53*temp.scaleX;
 			// Conditional Statements to Determine whether to increase left/right, or decrease. Possibly set bools.
 			if(Position=="Right"){
 				temp.x=prev.x+difference;
@@ -101,6 +102,15 @@
 				temp.y=prev.y-difference;
 			} else if(Position=="Below"){
 				temp.x=prev.x;
+				temp.y=prev.y+difference;
+			} else if(Position=="Upper Right"){
+				temp.x=prev.x+difference;
+				temp.y=prev.y-difference;
+			} else if(Position=="Upper Left"){
+				temp.x=prev.x-difference;
+				temp.y=prev.y-difference;
+			} else if(Position=="Lower Right"){
+				temp.x=prev.x+difference;
 				temp.y=prev.y+difference;
 			}
 		}

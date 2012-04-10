@@ -58,6 +58,7 @@
 		<VisibleElectrons> 00110011 </VisibleElectrons>
 	</Slot>
 </Molecule>
+
 <Molecule name="SodiumChloride">
 	<Slot>
 		<x> 218 </x>
@@ -74,6 +75,944 @@
 		<VisibleElectrons> 11111101 </VisibleElectrons>
 	</Slot>
 </Molecule>
+
+<Molecule name="Methane">
+	<Slot>
+		<x> 220 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons> 10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Left </Position>
+	</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> Methane </Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="MethylAlchohol">
+	<Slot>
+		<x> 220 </x>
+		<y> 99 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> Red </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> O </Name>
+		<Color> BROWN </Color>
+		<VisibleElectrons>11011101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right</Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>00000010</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> MethylAlchohol </Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="Propane">
+	<Slot>
+		<x> 213 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Right</Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> Propane</Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="Ethane">
+	<Slot>
+		<x> 233 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Right</Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Lower Right </Position>
+		</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> C2H6</Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="Butane">
+	<Slot>
+		<x> 213 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Right</Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Lower Right </Position>
+	</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> C4H10</Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="Pentane">
+	<Slot>
+		<x> 201.95 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 333.5 </x>
+		<y> 73 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 275.6 </x>
+		<y> 25 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Right</Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+		</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+		<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 0 </x>
+		<y> 0 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Upper Right </Position>
+	</Slot>
+	<Title>
+		<x>233.35</x>
+		<y> 190 </y>
+		<Symbol> C5H12</Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="SulfuricAcid">
+	<Slot>
+		<x> 201.95 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons> 11101101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>11110011</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> S </Name>
+		<Color> BROWN </Color>
+		<VisibleElectrons>11101101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>00111111</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>11011101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000010</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> H2SO4 </Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="MethylAldehyde">
+	<Slot>
+		<x> 208 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons> 11110011</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> BROWN </Color>
+		<VisibleElectrons>11100001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> CH2O </Symbol>
+	</Title>
+</Molecule>
+
+
+<Molecule name="FormicAcid">
+	<Slot>
+		<x> 208 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons> 11110011</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> BROWN </Color>
+		<VisibleElectrons>11100001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> O </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>11101101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> CH2O2 </Symbol>
+	</Title>
+</Molecule>
+
+
+<Molecule name="Benzene">
+	<Slot>
+		<x> 201.95 </x>
+		<y> 57 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>01110001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Right </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>00110101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000100</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>10100011</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>00100111</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>10000000</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>11100010</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>00011110</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Above </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000010</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position>Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>00000010</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> C6H6 </Symbol>
+	</Title>
+</Molecule>
+
+<Molecule name="Chloroform">
+	<Slot>
+		<x> 227 </x>
+		<y> 57 </y>
+		<Name> Cl </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons> 00100000 </VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> None </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 87 </y>
+		<Name> Cl </Name>
+		<Color>BlUE </Color>
+		<VisibleElectrons> 11110011</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> C </Name>
+		<Color> RED </Color>
+		<VisibleElectrons>11100001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+		<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> Cl </Name>
+		<Color> BLUE </Color>
+		<VisibleElectrons>11101101</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Below </Position>
+	</Slot>
+	<Slot>
+		<x> 287.45 </x>
+		<y> 136 </y>
+		<Name> H </Name>
+		<Color> BROWN </Color>
+		<VisibleElectrons>00000001</VisibleElectrons>
+		<Scale> 1.15 </Scale>
+		<Position> Upper Right </Position>
+	</Slot>
+	<Title>
+		<x>240.95</x>
+		<y> 178 </y>
+		<Symbol> CHCL3 </Symbol>
+	</Title>
+</Molecule>
+
+
 <Molecule name="Glycine">
 	<Slot>
 		<x> 210 </x>
