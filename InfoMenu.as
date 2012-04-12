@@ -15,7 +15,7 @@
 		private var ldr:Loader = new Loader();
 		var Title:TextField=new TextField();
 		public function InfoMenu(symb:String) {
-		this.graphics.beginFill(Color.BLUE, .45);
+		this.graphics.beginFill(Color.BLUE, .95);
 		this.graphics.drawRect(120, 50, 750, 750);
 		addChild(Title);
 		Title.visible=true;
