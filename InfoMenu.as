@@ -15,32 +15,32 @@
 		private var ldr:Loader = new Loader();
 		var Title:TextField=new TextField();
 		public function InfoMenu(symb:String) {
-					this.graphics.lineStyle(1, 0x000000);
-		this.graphics.moveTo(120, 50)
-		this.graphics.lineTo(120, 750);
-		this.graphics.lineTo(750, 750);
-		this.graphics.lineTo(750, 50);
-		this.graphics.lineTo(120, 50);
-		this.graphics.beginFill(Color.BLUE, .95);
-		this.graphics.drawRect(120, 50, 750, 750);
-		addChild(Title);
-		Title.visible=true;
-		changeTitleProperties(Title,this.x+this.width/2-Title.width/2, y+75,"Hydrogen");
-		var info:TextField=new TextField();
-		info.multiline=true;
-		info.wordWrap=true;
-		info.width=625;
-		var infoString:String="Hydrogen is the first element on the periodic table, having only 1 electron, and 1 proton.  Hydrogen is commonly known for it's uses in Water, H2O, and hydrogen peroxide, H2O2."
-		changeTitleProperties(info, 245, Title.y+100, infoString);
-		info.visible=true;
-		addChild(info);
-		loadImage();
+			this.graphics.lineStyle(1, 0x000000);
+			this.graphics.moveTo(120, 50)
+			this.graphics.lineTo(120, 750);
+			this.graphics.lineTo(750, 750);
+			this.graphics.lineTo(750, 50);
+			this.graphics.lineTo(120, 50);
+			this.graphics.beginFill(Color.BLUE, .95);
+			this.graphics.drawRect(120, 50, 750, 750);
+			addChild(Title);
+			Title.visible=true;
+			changeTitleProperties(Title,this.x+this.width/2-Title.width/2, y+75,"Hydrogen");
+			var info:TextField=new TextField();
+			info.multiline=true;
+			info.wordWrap=true;
+			info.width=625;
+			var infoString:String="Hydrogen is the first element on the periodic table, having only 1 electron, and 1 proton.  Hydrogen is commonly known for it's uses in Water, H2O, and hydrogen peroxide, H2O2."
+			changeTitleProperties(info, 245, Title.y+100, infoString);
+			info.visible=true;
+			addChild(info);
+			loadImage();
 		}
 	
 	
 	public function loadImage(){ 
-ldr.contentLoaderInfo.addEventListener(Event.COMPLETE, ldr_complete);
-ldr.load(new URLRequest("/images/elements/hydrogen_1.png"));
+		ldr.contentLoaderInfo.addEventListener(Event.COMPLETE, ldr_complete);
+		ldr.load(new URLRequest("/images/elements/hydrogen_1.png"));
 	}
 	
 function ldr_complete(evt:Event):void {
