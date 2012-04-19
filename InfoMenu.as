@@ -15,6 +15,12 @@
 		private var ldr:Loader = new Loader();
 		var Title:TextField=new TextField();
 		public function InfoMenu(symb:String) {
+					this.graphics.lineStyle(1, 0x000000);
+		this.graphics.moveTo(120, 50)
+		this.graphics.lineTo(120, 750);
+		this.graphics.lineTo(750, 750);
+		this.graphics.lineTo(750, 50);
+		this.graphics.lineTo(120, 50);
 		this.graphics.beginFill(Color.BLUE, .95);
 		this.graphics.drawRect(120, 50, 750, 750);
 		addChild(Title);

@@ -89,7 +89,7 @@
 		private function CalculatePosition(prev:Slot, temp:Slot, Position:String)
 		{
 			// Multiply the base difference by the scale to calculate the space wanted.
-			var difference:int=53*temp.scaleX;
+			var difference:int=49*temp.scaleX;
 			// Conditional Statements to Determine whether to increase left/right, or decrease. Possibly set bools.
 			if(Position=="Right"){
 				temp.x=prev.x+difference;
@@ -184,11 +184,11 @@
 			Title.selectable=false;
 			Title.height=250;
 			var CSS:String = ".Title{color:#000066; font-family:Arial; font-size:22px; font-weight:bold;}";
-var ss:StyleSheet = new StyleSheet();
-ss.parseCSS(CSS);
-Title.styleSheet = ss;
-Title.htmlText = '<div align="center"><span class="Title">' + molName + " \n"+ chemSymbol;
-addChild(Title);
+			var ss:StyleSheet = new StyleSheet();
+			ss.parseCSS(CSS);
+			Title.styleSheet = ss;
+			Title.htmlText = '<div align="center"><span class="Title">' + molName + " \n"+ chemSymbol;
+			addChild(Title);
 		}
 
 		// Is called anytime a slot is filled,
